@@ -8,5 +8,6 @@ namespace WidgetExample.Data {
     
     public DbSet<User> Users { get; set; }
     public DbSet<Widget> Widgets { get; set; }
+    public DbSet<AccessToken> AccessTokens { get; set; }
   }
 }

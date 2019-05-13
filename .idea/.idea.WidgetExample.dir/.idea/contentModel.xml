@@ -11,6 +11,7 @@
       <e p="Controllers" t="Include">
         <e p="ValuesController.cs" t="Include" />
         <e p="v1" t="Include">
+          <e p="AccessTokenController.cs" t="Include" />
           <e p="AuthController.cs" t="Include" />
           <e p="WidgetController.cs" t="Include" />
         </e>
@@ -23,10 +24,12 @@
         <e p="WidgetRepo.cs" t="Include" />
       </e>
       <e p="Dto" t="Include">
+        <e p="AccessTokenDto.cs" t="Include" />
         <e p="UserLoginDto.cs" t="Include" />
         <e p="UserRegisterDto.cs" t="Include" />
       </e>
       <e p="Entities" t="Include">
+        <e p="AccessToken.cs" t="Include" />
         <e p="User.cs" t="Include" />
         <e p="Widget.cs" t="Include" />
       </e>
@@ -37,6 +40,8 @@
       <e p="Migrations" t="Include">
         <e p="20190512101445_InitialSetup.Designer.cs" t="Include" />
         <e p="20190512101445_InitialSetup.cs" t="Include" />
+        <e p="20190513063621_AccessToken.Designer.cs" t="Include" />
+        <e p="20190513063621_AccessToken.cs" t="Include" />
         <e p="DataContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Program.cs" t="Include" />

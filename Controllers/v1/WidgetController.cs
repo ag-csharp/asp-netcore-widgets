@@ -19,7 +19,9 @@ namespace WidgetExample.Controllers.V1 {
     }
     
     [HttpGet("claims")]
+    #pragma warning disable 1998
     public async Task<IActionResult> GetClaims() {
+      #pragma warning restore 1998
       List<Object> list = new List<Object>();
       var user = User.FindFirst(ClaimTypes.NameIdentifier).Value;
       Console.WriteLine($"User = {user}\nType = {user.GetType()}");
